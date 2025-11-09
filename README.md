@@ -45,7 +45,7 @@ AskHealth-AI-Chatbot/
 
 The Healthcare Data Assistant uses an agentic architecture to autonomously process and respond to data queries:
 
-![System Architecture](assests/architecture.png)
+![System Architecture](assets/architecture.png)
 
 ### Key Components
 
@@ -99,7 +99,7 @@ This architecture enables seamless processing of complex healthcare queries thro
 
 ## User Interface
 
-![User Interface](assests/frontend.png)
+![User Interface](assets/frontend.png)
 
 ## Installation Guide
 
