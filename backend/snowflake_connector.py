@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 
 class SnowflakeConnector:
     def __init__(self):
+        # Initialize the Snowflake connector by loading environment variables and creating the engine
         load_dotenv()
 
         self.username = os.getenv("SNOWFLAKE_USER")
