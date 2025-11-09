@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Navbar = () => {
   // Replace this URL with your actual GitHub repository URL
-  const githubRepoUrl = "https://github.com/AI-Healthcare-Chatbot/Agentic_Healthcare_Chatbot";
+  const githubRepoUrl = "https://github.com/Akshaj-N/AskHealth-AI-Chatbot";
   
   // State for controlling the info modal
   const [showInfoModal, setShowInfoModal] = useState(false);
