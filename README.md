@@ -194,6 +194,27 @@ Run the complete stack with a single command:
 docker-compose up -d
 ```
 
+## How It Works
 
+The Healthcare Data Assistant is built as an agentic AI system that:
+
+1. Receives natural language queries from users about healthcare data
+2. Processes queries using LLMs to understand intent and extract key information
+3. Generates optimized SQL queries to retrieve relevant healthcare data
+4. Creates visualizations when appropriate based on the data returned
+5. Falls back to web search when database information is insufficient
+6. Maintains conversation context to enable follow-up questions
+
+## Example Queries
+
+The system can handle a wide range of healthcare queries such as:
+
+- "What is the average cost of a knee replacement surgery?"
+- "Show me a bar chart of the top 5 most common procedures in cardiology"
+- "What is the distribution of hospital stays by age group?"
+- "What's the trend of COVID-19 hospitalizations over the past year?"
+- "Compare the costs of different types of heart surgeries"
+- "What are the most common diagnoses for patients over 65?"
+- "Search the web for new cancer treatment research"
 
 
