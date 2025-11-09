@@ -205,7 +205,7 @@ The Healthcare Data Assistant is built as an agentic AI system that:
 5. Falls back to web search when database information is insufficient
 6. Maintains conversation context to enable follow-up questions
 
-## Example Queries
+## Usage Examples
 
 The system can handle a wide range of healthcare queries such as:
 
